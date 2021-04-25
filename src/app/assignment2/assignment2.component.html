@@ -1,0 +1,4 @@
+<input type="text" name="userName" placeholder="userName" [(ngModel)]='userName' (input)='checkUserName($event)'>
+<p>{{userName}}</p>
+
+<button class="btn btn-primary" [disabled]='isUserNameNull' (click)='makeUserNameNull()'>Click Me</button>

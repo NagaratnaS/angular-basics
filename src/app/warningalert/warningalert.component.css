@@ -1,0 +1,6 @@
+.alert-danger {
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
