@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { SuccessalertComponent } from './successalert/successalert.component';
 import { WarningalertComponent } from './warningalert/warningalert.component';
 import { Assignment2Component } from './assignment2/assignment2.component';
+import { Assignment3Component } from './assignment3/assignment3.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Assignment2Component } from './assignment2/assignment2.component';
     ServersComponent,
     SuccessalertComponent,
     WarningalertComponent,
-    Assignment2Component
+    Assignment2Component,
+    Assignment3Component
   ],
   imports: [
     BrowserModule,

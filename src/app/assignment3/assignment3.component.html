@@ -1,0 +1,4 @@
+<button class="btn btn-primary" (click)="toggle()">Display details</button>
+<p [hidden]="isVisible">Hello everyone, I am Nagaratna</p>
+
+<p *ngFor="let item of counters" [ngStyle]="{backgroundColor: item >= 5 ? 'blue': 'transparent'}" [ngClass]="{whiteback: item >= 5}"> {{item}}</p>
